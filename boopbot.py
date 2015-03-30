@@ -4,9 +4,9 @@ import socket
 import sys
 
 server = 'irc.twitch.tv'
-channel = 'dudeofa'
-botnick = 'ZedBot2808'
-botpass = 'oauth:l52pfcfw0ylokylxcdtgr4ef46vpilx'
+channel = ''
+botnick = ''
+botpass = ''
 
 irc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print('connecting to ' + server)
